@@ -13,7 +13,7 @@ namespace AdventOfCode2019
 
         public static int ExecutePart2()
         {
-            return File.ReadAllLines(@"..\..\..\Day1Input.txt").ToList().Sum(line => Fuel(int.Parse(line)));
+            return File.ReadAllLines(@"..\..\..\Day1Input.txt").ToList().Sum(mass => Fuel(int.Parse(mass)));
 
             int Fuel(int value, int sum = 0)
             {
