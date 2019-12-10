@@ -29,6 +29,10 @@ namespace AdventOfCode2019
             //Day 6
             Console.WriteLine($"Result Day 6 (Part 1): {Day6.ExecutePart1()}");
             Console.WriteLine($"Result Day 6 (Part 2): {Day6.ExecutePart2()}");
+
+            //Day 7
+            Console.WriteLine($"Result Day 7 (Part 1): {Day7.ExecutePart1()}");
+            Console.WriteLine($"Result Day 7 (Part 2): {Day7.ExecutePart2()}");
         }
     }
 }
